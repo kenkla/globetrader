@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
 /* line 9, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8566,4 +8567,32 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 9, ../sass/_custom.scss */
+.navbar-inverse {
+  background-color: #527f4b;
+}
+
+/* line 14, ../sass/_custom.scss */
+.navbar-brand.brand-text {
+  color: #eaf9e9;
+}
+
+/* line 19, ../sass/_custom.scss */
+.brand-text {
+  font-family: "Marcellus SC", serif;
+}
+
+/* line 23, ../sass/_custom.scss */
+.main-wrapper {
+  width: 100%;
+  background: url("../images/map-background-image.jpg") #737f71 no-repeat center;
+  background-size: cover;
+  min-height: 600px;
+  color: #e6ffe3;
+}
+
+/* line 31, ../sass/_custom.scss */
+.main-menu {
+  font-size: 128.571%;
 }
