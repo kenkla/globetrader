@@ -8589,10 +8589,20 @@ button.close {
   background: url("../images/map-background-image.jpg") #737f71 no-repeat center;
   background-size: cover;
   min-height: 600px;
-  color: #e6ffe3;
+  color: #527f4b;
+  padding: 30px;
 }
 
-/* line 31, ../sass/_custom.scss */
-.main-menu {
-  font-size: 128.571%;
+/* line 32, ../sass/_custom.scss */
+#mainMenu {
+  font-size: 18px;
+}
+/* line 34, ../sass/_custom.scss */
+#mainMenu li {
+  margin-bottom: 15px;
+}
+
+/* line 39, ../sass/_custom.scss */
+#aboutBody {
+  font-size: 18px;
 }

@@ -25,9 +25,17 @@
   background: url("../images/map-background-image.jpg") $base-gray no-repeat center;
   background-size: cover;
   min-height: 600px;
-  color: $base-light;
+  color: $base-dark;
+  padding: 30px;
 }
 
-.main-menu {
-  font-size: 128.571%;
+#mainMenu {
+  font-size: $font-size-large;
+  li {
+    margin-bottom: 15px;
+  }
+}
+
+#aboutBody {
+  font-size: $font-size-large;
 }
