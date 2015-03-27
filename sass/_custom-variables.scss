@@ -4,3 +4,4 @@ $base-dark: #527f4b;
 $base-light: #e6ffe3;
 $base-gray: #737f71;
 $base-link: darken($base-color, 40%);
+$base-light-text: desaturate($base-light, 40%);

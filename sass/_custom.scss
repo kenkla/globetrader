@@ -6,15 +6,19 @@
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
 
-
 // Header
+
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-inverse {
   background-color: $base-dark;
 }
 
 .navbar-brand {
   &.brand-text {
-    color: desaturate($base-light, 40%);
+    color: $base-light-text;
   }
 }
 
@@ -36,6 +40,7 @@
   font-size: $font-size-large;
   li {
     margin-bottom: 15px;
+    font-size: 130%;
   }
 }
 
@@ -47,10 +52,18 @@
 
 #postscript {
   background-color: $base-gray;
-  color: desaturate($base-light, 40%)
+  color: $base-light-text;
 }
 
 #locationInfo {
   font-size: $font-size-large;
   padding-bottom: 10px;
+}
+
+// Footer
+
+footer {
+  background-color: darken($base-gray, 20%);
+  color: $base-light-text;
+  padding: 15px;
 }
