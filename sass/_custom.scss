@@ -6,6 +6,8 @@
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
 
+
+// Header
 .navbar-inverse {
   background-color: $base-dark;
 }
@@ -20,9 +22,10 @@
   font-family: "Marcellus SC", serif;
 }
 
+// Main Content
 .main-wrapper {
   width: 100%;
-  background: url("../images/map-background-image.jpg") $base-gray no-repeat center;
+  background: url("../images/map-background-image.jpg") $base-light no-repeat center;
   background-size: cover;
   min-height: 600px;
   color: $base-dark;
@@ -38,4 +41,16 @@
 
 #aboutBody {
   font-size: $font-size-large;
+}
+
+// Postscript
+
+#postscript {
+  background-color: $base-gray;
+  color: desaturate($base-light, 40%)
+}
+
+#locationInfo {
+  font-size: $font-size-large;
+  padding-bottom: 10px;
 }

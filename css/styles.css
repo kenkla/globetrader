@@ -8568,41 +8568,53 @@ button.close {
     display: none !important;
   }
 }
-/* line 9, ../sass/_custom.scss */
+/* line 11, ../sass/_custom.scss */
 .navbar-inverse {
   background-color: #527f4b;
 }
 
-/* line 14, ../sass/_custom.scss */
+/* line 16, ../sass/_custom.scss */
 .navbar-brand.brand-text {
   color: #eaf9e9;
 }
 
-/* line 19, ../sass/_custom.scss */
+/* line 21, ../sass/_custom.scss */
 .brand-text {
   font-family: "Marcellus SC", serif;
 }
 
-/* line 23, ../sass/_custom.scss */
+/* line 26, ../sass/_custom.scss */
 .main-wrapper {
   width: 100%;
-  background: url("../images/map-background-image.jpg") #737f71 no-repeat center;
+  background: url("../images/map-background-image.jpg") #e6ffe3 no-repeat center;
   background-size: cover;
   min-height: 600px;
   color: #527f4b;
   padding: 30px;
 }
 
-/* line 32, ../sass/_custom.scss */
+/* line 35, ../sass/_custom.scss */
 #mainMenu {
   font-size: 18px;
 }
-/* line 34, ../sass/_custom.scss */
+/* line 37, ../sass/_custom.scss */
 #mainMenu li {
   margin-bottom: 15px;
 }
 
-/* line 39, ../sass/_custom.scss */
+/* line 42, ../sass/_custom.scss */
 #aboutBody {
   font-size: 18px;
+}
+
+/* line 48, ../sass/_custom.scss */
+#postscript {
+  background-color: #737f71;
+  color: #eaf9e9;
+}
+
+/* line 53, ../sass/_custom.scss */
+#locationInfo {
+  font-size: 18px;
+  padding-bottom: 10px;
 }
