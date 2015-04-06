@@ -8613,19 +8613,28 @@ button.close {
   font-size: 18px;
 }
 
+/* line 51, ../sass/_custom.scss */
+#contactMe {
+  margin-top: 20px;
+}
 /* line 53, ../sass/_custom.scss */
+#contactMe label, #contactMe p {
+  font-size: 90%;
+}
+
+/* line 61, ../sass/_custom.scss */
 #postscript {
   background-color: #737f71;
   color: #eaf9e9;
 }
 
-/* line 58, ../sass/_custom.scss */
+/* line 66, ../sass/_custom.scss */
 #locationInfo {
   font-size: 18px;
   padding-bottom: 10px;
 }
 
-/* line 65, ../sass/_custom.scss */
+/* line 73, ../sass/_custom.scss */
 footer {
   background-color: #424941;
   color: #eaf9e9;
